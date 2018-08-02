@@ -8,7 +8,7 @@ import "./styles.css";
 const AnimatedSlider = ({ content }) => {
   return (
     <div>
-      <Slider className="slider-wrapper">
+      < Slider autoplay = {2500} className = "slider-wrapper" >
         {content.map((item, index) => (
           <div
             key={index}
